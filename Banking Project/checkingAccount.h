@@ -15,9 +15,9 @@ public:
 	double getServiceCharge() const;
 	void postInterest() const;
 	bool verifyBalance() const;
-	void deposit(double amount);
-	void withdraw(double amount);
-	void print() const;
+	void deposit(double amount) override;
+	void withdraw(double amount) override;
+	void print() const override;
 	checkingAccount();
 	checkingAccount(int accountNumber, double balance, double interestRate, double minBalance, double serviceCharge);
 };

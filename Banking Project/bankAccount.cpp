@@ -3,8 +3,8 @@
 
 using namespace std;
 
-void bankAccount::setAccountNumber(int accountNum) {
-	this->accountNumber;
+void bankAccount::setAccountNumber(int accountNumber) {
+	this->accountNumber = accountNumber;
 }
 int bankAccount::getAccountNumber() const {
 	return this->accountNumber;

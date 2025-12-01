@@ -24,12 +24,18 @@
     <ClCompile Include="checkingAccount.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="savingsAccount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bankAccount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="checkingAccount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="savingsAccount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

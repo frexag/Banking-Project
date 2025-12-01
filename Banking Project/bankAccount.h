@@ -9,9 +9,9 @@ public:
 	void setAccountNumber(int accNum);
 	int getAccountNumber() const;
 	double getAccountBalance() const;
-	void deposit(double amount);
-	void withdraw(double amount);
-	void print() const;
+	virtual void deposit(double amount);
+	virtual void withdraw(double amount);
+	virtual void print() const;
 	bankAccount();
 	bankAccount(int accountNumber, double balance);
 };
